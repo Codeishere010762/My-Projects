@@ -1,0 +1,1020 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.quote {
+  background: #1d1d1b;
+  height: 40px;
+  width: 1920px;
+}
+
+.quote p {
+  color: white;
+  font-family: "Space Mono", serif;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.navbar {
+  width: 1920px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #1d1d1b;
+}
+
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 12px;
+}
+
+.navigation a {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+  padding-bottom: 0px;
+  font-family: "Space Mono", serif;
+  cursor: pointer;
+  color: #202020;
+  text-decoration: none;
+}
+
+#navbar_underlines {
+  padding-left: 28px;
+}
+
+#navbar_underlines img {
+  padding-right: 22px;
+  transform: translateY(-19px);
+}
+
+#navbar_rt_underlines {
+  padding-left: 38px;
+}
+
+#navbar_rt_underlines img {
+  padding-right: 52px;
+  transform: translateY(-19px);
+}
+
+.nav_logo img {
+  margin-top: 33px;
+}
+
+.rtbtns {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 12px;
+}
+
+.rtbtns a {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+  padding-bottom: 0px;
+  font-family: "Space Mono", serif;
+  cursor: pointer;
+  color: #202020;
+  text-decoration: none;
+}
+
+#rtbtns {
+  padding-left: 38px;
+}
+
+#rtbtns img {
+  padding-right: 62px;
+  transform: translateY(-18px);
+}
+
+.m-container {
+  display: flex;
+  max-width: 1920px;
+  height: 942px;
+}
+
+.m-image {
+  display: inline-block;
+  width: 1000px;
+  height: 942px;
+  background: #000;
+}
+
+.m-content {
+  width: 919px;
+  height: 942px;
+  background-image: url(Assets/Decorative_Stuff/m-content_bG.png);
+  background-size: 942px 921px;
+  background-repeat: no-repeat;
+}
+
+.seperation1 {
+  width: 1920px;
+  height: 60px;
+  border: 1px solid #1d1d1b;
+  box-sizing: border-box;
+}
+
+.seperation1 p {
+  color: black;
+  font-family: "Space mono", serif;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m-content {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #1d1d1b;
+}
+
+.head {
+  width: 338px;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(170px);
+  z-index: 2;
+}
+
+.head h1 {
+  font-size: 85px;
+  text-align: left;
+  font-family: "Anton", serif;
+  margin: 0;
+}
+
+.stamp {
+  transform: translate(-40px, -247px) rotate(-38deg);
+  z-index: 1;
+}
+
+.calligraphy {
+  transform: translate(-290px, 190px);
+}
+
+.pg-2 {
+  width: 1920px;
+  height: 583px;
+  background-color: #fdf1d9;
+  display: flex;
+}
+
+.pg-2_s1 {
+  width: 957px;
+  height: 583px;
+  border-right: 1px solid #1d1d1b;
+  border-left: 1px solid #1d1d1b;
+}
+
+.pg-2_s1 .pg-2_head1 {
+  margin: 67px 0px 0px 80px;
+  padding: 0px 0px 0px 0px;
+}
+
+.pg-2_head1 img {
+  transform: translate(549px, -150px);
+}
+
+.pg-2_s1 h1 {
+  text-transform: uppercase;
+  font-family: "Anton", serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.pg-2_text1 {
+  margin: 0px 210px 0px 80px;
+}
+
+.pg-2_text1 p {
+  font-family: "Space mono", serif;
+  font-size: 18px;
+}
+
+.pg-2_btn {
+  margin: 120px 0px 0px 80px;
+}
+
+.pg-2_btn a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 550;
+  font-family: "Anton";
+}
+
+.pg-2_btn img {
+  transform: translate(0px, 7px);
+}
+
+.product1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 480px;
+  height: 583px;
+  border-right: 1px solid #1d1d1b;
+}
+
+.product1 h1 {
+  text-transform: uppercase;
+  font-family: "Anton";
+  letter-spacing: 2px;
+  font-weight: 550;
+  font-size: 35px;
+}
+
+.product1 p {
+  font-family: "Space Mono";
+  font-size: 18px;
+}
+
+.info {
+  margin: 0px 0px 40px 50px;
+}
+
+.pg-3 {
+  width: 1920px;
+  height: 752px;
+  background-image: url(Assets/Images/BGs/PG-3_BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1d1d1b;
+  box-sizing: border-box;
+}
+
+.pg-3 h1 {
+  width: 60%;
+  text-transform: uppercase;
+  font-family: "Anton";
+  font-weight: 700;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  letter-spacing: 6px;
+}
+
+.pg-4 {
+  width: 1920px;
+  height: 878px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.pg-4-rating {
+  width: 960px;
+  height: 878px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #1d1d1b;
+}
+
+.rating-stars {
+  display: flex;
+}
+
+.pg-4-head {
+  width: 755px;
+  height: 143px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.pg-4-head h1 {
+  font-family: "Anton";
+  font-size: 35px;
+  letter-spacing: 0.7px;
+  line-height: 45px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.pg-4-img {
+  width: 960px;
+  border-right: 1px solid #1d1d1b;
+  height: 878px;
+  background-image: url(Assets/Images/BGs/pg-4_bG.png);
+}
+
+.pg-4-text p {
+  font-family: "Space mono";
+}
+
+.pg-4-text {
+  margin-top: 50px;
+}
+
+.boxes {
+  margin-top: 75px;
+  display: flex;
+  gap: 20px;
+}
+
+.boxes .boxw {
+  width: 8px;
+  height: 8px;
+  border: 1px solid black;
+}
+
+.boxes .boxb {
+  width: 8px;
+  height: 8px;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.pg-5 {
+  width: 1920px;
+  height: 982px;
+  box-sizing: border-box;
+}
+
+.pg-5_vtext {
+  width: 360px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.pg-5_vtext:first-child {
+  border-left: 1px solid #1d1d1b;
+}
+
+.pg-5_content {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+
+.pg-5_vtext > div {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-right: 1px solid #1d1d1b;
+  padding-bottom: 30px;
+}
+.pg-5_vtext h1 {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-family: "Anton";
+  font-size: 50px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+.pg-5-img {
+  display: flex;
+  width: 1560px;
+  height: 980px;
+}
+.pg-5_content img {
+  margin: 70px 0px 70px 80px;
+}
+.contact {
+  margin: 100px 0px 0px 20px;
+}
+.contact h1 {
+  font-family: "Anton";
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.contact p {
+  font-family: "Space mono";
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.contact :nth-child(4) {
+  margin-bottom: 15px;
+}
+.button{
+  height: 59px;
+  width: 155px;
+  background-color: #1d1d1b;
+  margin-top: 40px;
+}
+
+.button button{
+  width: 155px;
+  height: 59px;
+  border-style: none;
+  background-image: url(Assets/Decorative_Stuff/Button-BG.png);
+  font-family: "Anton";
+  font-size: 17px;
+  fill: #1d1d1b;
+  color: white;
+}
+
+.pg-6 {
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pg-6-head{
+  width: 100%;
+  border-left: 1px solid #1d1d1b;
+  border-right: 1px solid #1d1d1b;
+}
+.pg-6-head h1 {
+  font-family: "Anton";
+  font-size: 70px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-left: 70px;
+}
+
+.our-products{
+  display: flex;
+  border-top: 2px solid #1d1d1b ;
+  border-left: 1px solid #1d1d1b;
+}
+
+.pg-7{
+  width: 100%;
+  height: 770px;
+  background-color: #fdf1d9;
+  border: 1px solid #1d1d1b;
+  display: flex;
+}
+.pg-7-lt-sec{
+  border-right: 1px solid #1d1d1b;
+  width: 797px;
+  height: 769px;
+}
+
+.pg-7-lt-sec h1 {
+  margin:30px 0px 0px 40px;
+  width: 580px;
+  font-family: "Anton";
+  font-size: 70px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.pg-7-designs :nth-child(1){
+  transform: translate(540px, -260px) rotate(135deg);
+}
+.pg-7-designs :nth-child(2){
+  transform: translate(-220px, 250px) rotate(-5deg);
+}
+
+.pg-7-rt-sec{
+  width: 1130px;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+}
+
+#des-sec-4{
+  border: none;
+}
+.pg-7-rt-des-sec{
+  border-bottom: 1px solid #1d1d1b;
+  height: 194px;
+}
+
+.pg-7-rt-des-sec h1{
+  margin:30px 0px 0px 40px;
+  width: 580px;
+  font-family: "Anton";
+  font-size: 35px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.pg-7-rt-des-sec p{
+  font-family: "Space Mono";
+  width: 500px;
+  margin:0px 0px 0px 40px;
+  font-size: 18px;
+}
+
+.pg-7-rt-des-sec h4{
+  width: 580px;
+  font-family: "Anton";
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: 500;
+  transform: translate(475px,-56px);
+}
+
+.pg-7-rt-des-sec img{
+  transform: translate(1060px, -80px);
+}
+
+.pg-8 {
+  width: 100%;
+  height: 466px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(Assets/Decorative_Stuff/Form-Bg.png);
+  border-bottom: 1px solid #1d1d1b;
+  border-left: 1px solid #1d1d1b;
+  border-right: 1px solid #1d1d1b;
+}
+
+.pg-8 h1{
+  margin:140px 0px 0px 0px;
+  width: 580px;
+  font-family: "Anton";
+  font-size: 50px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.pg-8-form{
+  padding-top: 55px;
+  display: flex;
+  gap: 75px;
+  align-items: end;
+}
+.reservation-persons{
+  width: 300px;
+  font-size: 18px;
+  height: 25px;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid #1d1d1b;
+  border-left: none;
+  font-family: "Space Mono";
+}
+.reservation-date{
+  width: 300px;
+  font-size: 18px;
+  height: 25px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-family: "Space Mono";
+  border-bottom: 1px solid #1d1d1b;
+}
+.reservation-time {
+  width: 300px;
+  font-size: 18px;
+  height: 25px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #1d1d1b;
+  font-family: "Space Mono";
+}
+.reservation-btn{ 
+  width: 150px;
+  height: 60px;
+  font-family: "Anton";
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #1d1d1b;
+  color: white;
+  background-image: url(Assets/Decorative_Stuff/Button-radial-BG.png);
+}
+
+
+.pg-9 {
+  width: 100%;
+  height: 632px;
+  border-bottom: 1px solid #1d1d1b;
+  border-left: 1px solid #1d1d1b;
+  border-right: 1px solid #1d1d1b;
+}
+.pg-9-head{
+  border-bottom: 1px solid #1d1d1b;
+  height: 171px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.pg-9-head h1{
+  width: 580px;
+  font-family: "Anton";
+  font-size: 50px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.pg-9-team{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pg-9-team :last-child{
+  border: none;
+}
+.teammember{
+  height: 460px;
+  width: 320px;
+  border-right: 1px solid #1d1d1b;
+}
+
+.teammember img{
+  margin-left: 35px;
+  margin-top: 35px;
+}
+.teammember h1{
+  margin-top: 35px;
+  margin-left: 35px;
+  width: 580px;
+  font-family: "Anton";
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.teammember p{
+  margin-top: 5px;
+  margin-left: 35px;
+  font-family: "Space mono";
+  font-size: 18px;
+}
+.pg-9-info{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.pg-10{
+  height: 2338px;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #1d1d1b;
+  border-left: 1px solid #1d1d1b;
+}
+.p-10-aside{
+  height: 989px;
+  width: 789px;
+  background-image: url(Assets/Images/Blogs/02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.p-10-aside h1{
+  padding-top: 35px;
+  margin-left: 35px;
+  width: 580px;
+  font-family: "Anton";
+  font-size: 70px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 80px;
+}
+.p-10-aside img{
+  transform: translate(140px, -120px) rotate(-15deg)
+}
+.p-10-aside button{
+  width: 150px;
+  height: 60px;
+  font-family: "Anton";
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #1d1d1b;
+  color: white;
+  background-image: url(Assets/Decorative_Stuff/Button-radial-BG.png);
+  transform: translate(-240px, 660px);
+}
+
+.blog-list{
+  display: flex;
+  flex-direction: column;
+  width: 1141px;
+  height: 2335px;
+  /* background-color: antiquewhite; */
+}
+.blogs{
+  width: 1140px;
+  height: 389px;
+  border: 1px solid #1d1d1b;
+  display: flex;
+  
+}
+#blog-1{
+  border-top: none;
+  border-bottom: none;
+}
+
+#blog-2, #blog-3, #blog-4, #blog-5, #blog-6{
+  border-bottom: none;
+}
+
+.Blog-icon{
+  border-radius: 15px;
+  margin: 40px 40px 40px 40px;
+}
+
+.blog-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.blogs p{
+  font-family: "Space Mono";
+  font-size: 18px;
+  margin: 50px 0px 0px 0px;
+}
+
+.blogs h1{
+  margin-top: 30px;
+  width: 420px;
+  font-family: "Anton";
+  font-size: 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.blogs h4{
+  width: 580px;
+  font-family: "Anton";
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: 500;
+  transform: translate(-500px,115px);
+}
+
+.blog-info img{
+  transform: translate(-177px, -164px) scale(0.09);
+}
+
+.pg-11{
+  width: 100%;
+  height: 795px;
+  border-bottom: 1px solid #1d1d1b;
+  border-right: 1px solid #1d1d1b;
+  border-left: 1px solid #1d1d1b;
+}
+
+.pg-11-c{
+  width: 1802px;
+  height: 650px;
+  display: flex;
+}
+
+.pg-11-c img{
+  width: 1920px;
+  height: 650px;
+  border-radius: 25px;
+  margin: 80px 80px 80px 80px;
+}
+.pg-11-c-info{
+  display: flex;
+  flex-direction: column;
+  width: 613px;
+  height: 650px;
+}
+.pg-11-c-info h1{
+  margin-top: 250px;
+  font-family: "Anton";
+  font-size: 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.pg-11-c-info p{
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "Space Mono";
+}
+.pg-11-c-info button{
+  width: 150px;
+  height: 60px;
+  font-family: "Anton";
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #1d1d1b;
+  color: white;
+  background-image: url(Assets/Decorative_Stuff/Button-radial-BG.png);
+  transform: translate(0px, 40px);
+}
+
+.pg-12{
+  height: 1100px;
+  width: 100%;
+  border-left: 1px solid #1d1d1b;
+  border-right: 1px solid #1d1d1b;
+  border-bottom: 1px solid #1d1d1b;
+}
+.pg-12-head{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #1d1d1b;
+}
+.pg-12-head h1{
+  margin-left: 70px;
+  width: 420px;
+  font-family: "Anton";
+  font-size: 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 50px;
+}
+.brands-box{
+  width: 100%;
+  height: 311px;
+  display: flex;
+}
+.brand{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 311px;
+  width: 100%;
+  border-right: 1px solid #1d1d1b;
+  border-bottom: 1px solid #1d1d1b;
+}
+.brands-box :nth-child(5){
+  border-right: none;
+}
+.product-list{
+  width: 100%;
+  height: 697px;
+  display: flex;
+}
+.plist{
+  width: 50%;
+  height: 649px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.plist h1{
+  margin-left: 250px;
+  width: 420px;
+  font-family: "Anton";
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 50px;
+}
+.plist p{
+  font-family: "Space Mono";
+  font-size: 18px;
+  margin: 10px 0px 0px 250px;
+}
+.plist .price{
+  transform: translate(480px, -83px);
+}
+.plist-img{
+  width: 965px;
+  height: 708px;
+  background-image: url(Assets/Images/BGs/PG-12_BG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.pg-13{
+  width: 100%;
+}
+.pg-13-head{
+  height: 80px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-right: 1px solid #1d1d1b;
+  border-left: 1px solid #1d1d1b;
+  border-bottom: 1px solid #1d1d1b;
+  
+}
+.pg-13-head h1{
+  margin-left: 70px;
+  font-family: "Anton";
+  font-size: 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.pg-13-img{
+  width: 100%;
+  display: grid;
+  border-right: 1px solid #1d1d1b;
+  border-left: 1px solid #1d1d1b;
+  border-bottom: 1px solid #1d1d1b;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 20px;
+}
+.pg-13-img img{
+  border-radius: 25px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.footer{
+  display: flex;
+  height: 225px;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  margin: 70px 0px 70px 70px;
+}
+
+.footer h1{
+  margin: 75px 0px 0px 35px;
+  font-family: "Anton";
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 50px;
+}
+.footer .address p{
+  margin: 3px 0px 0px 35px;
+  font-family: "Space Mono";
+  font-size: 16px;
+}
+
+footer{
+  width: 100%;
+  border-right: 1px solid #1d1d1b;
+  border-left: 1px solid #1d1d1b;
+  border-bottom: 1px solid #1d1d1b;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  margin: 70px 0px 10px 420px;
+}
+
+.links a{
+  font-family: "Space Mono";
+  margin-right: 430px;
+  font-size: 16px;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom:2px ;
+}
+.links-underline img{
+  padding-top: 16px;
+  transform: translate(20px, -166px);
+}
+#f-ud-3, #f-ud-4, #f-ud-5, #f-ud-6, #f-ud-7{
+  margin-bottom: 3px;
+}
+.links-underline{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  margin: 70px 0px 10px 420px;
+}
